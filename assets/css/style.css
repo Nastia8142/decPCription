@@ -1,0 +1,168 @@
+	body 
+    {
+    margin: 0%;
+    font-family: 'Playfair Display', serif;
+    font-size: 24 px;
+    line-height: 1.6;
+    color: 000000;
+    }
+    :before,
+    :after
+    {
+        box-sizing: border-box;
+    }
+ 
+/*header*/
+header {
+    background-color: chocolate;
+    width: 100%; 
+}
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    height: 60px;
+}
+
+.header_logo {
+    margin-left: 100px;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+nav {
+    font-size: 15px;
+    text-transform: uppercase;
+    width: 1000px;
+    justify-content: right  ;
+}
+
+nav div {
+ display: inline-block;
+ justify-content: space-between;
+ margin-left: 70px ;
+}
+
+.nav__link {
+    margin: 0 5px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+.nav__link:hover { 
+    color: white;
+    transition: .2s linear;
+}
+.nav__reg {
+    margin: 0 15px;
+    padding: 5px 20px;
+    position: right;
+    color: black;
+    border-radius: 5px;
+    background: orange;
+}
+.nav__reg:hover {
+    background-color: white;
+    color: black;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear; 
+}
+.nav__reg1 {
+    margin: 0 5px;
+    color: black;
+}
+
+.nav__reg1:hover {
+    background-color: white;
+    color: black;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear; 
+}
+     /*Intro*/
+    .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background-color: burlywood;
+    text-align: center;
+    } 
+     /*Container*/
+   .container{
+    width: 100%;
+    margin: 0 auto;
+    }
+    /*Intro__title*/
+    .intro__title {
+    font-size: 35px;
+    font-weight: 100;
+    text-align: center;
+    color: black;
+    margin: 30px;
+    }
+
+/*Button*/
+.btn {
+    padding: 8px 15px;
+    margin: 35px;
+    border: 2px solid orange;
+    border-radius: 35px;
+    font-size: 24px;
+    font-weight: 600 ;
+    color: black;
+    text-decoration: none;
+    background: orange;
+}
+.btn:hover {
+    background-color: white;
+    color: black;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear; 
+}
+footer {
+   padding: 20px;
+   background-color: chocolate;
+   display: flex;
+   align-items: baseline;
+   justify-content: space-between;
+}
+.footer_social {
+    margin: 0 5px;
+    float: right;
+    margin: top;
+    width: 276px;
+    font-size: 14px;
+    font-weight: 500 ;
+    color: black;
+    text-transform: none;
+    text-decoration: none;
+    align-items: baseline;
+}
+.spacer{
+    display: flex;
+    width: 300px;
+    flex-direction:column;
+    width:30em;
+    height: 60px;
+    padding: 12px 15px;
+    font-size: 14px;
+    font-weight: 200 ;
+    color: black;
+    text-transform: none;
+    text-decoration: none;
+}
+.im1 {
+    width: 30px;
+    height: 30px;
+    align-items: right;
+    display: flex;
+    padding: 10px;
+}
+.im2 {
+    width: 30px;
+    height: 30px;
+    align-items: right;  
+}
